@@ -7,17 +7,25 @@ public class Question_006_3052 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int[] ary = new int[10];
+		boolean[] ary = new boolean[42];
+		int count = 0;
 		
-		for(int i = 0; i<ary.length; i++) {
-			ary[i] = sc.nextInt();
-			System.out.println(ary[i]);
+		for(int i=0; i<10; i++) {
+			ary[(sc.nextInt())%42] = true;
+		}
+//		for(int i=0; i<ary.length; i++) {
+//			if(ary[i] = true) {
+//				count++;
+//			}
+//		}
+		for(boolean value : ary) {
+			if(value) {
+				count++;
+			}
 		}
 		
-		int sw = ary[0]%42;
-		System.out.println(sw);
-		System.out.println(ary.length);
-
+		System.out.println(count);
+		
 	}
 
 }
