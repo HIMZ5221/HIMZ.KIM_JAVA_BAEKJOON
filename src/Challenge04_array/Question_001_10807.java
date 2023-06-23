@@ -1,5 +1,6 @@
 package Challenge04_array;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Question_001_10807 {
@@ -21,6 +22,9 @@ public class Question_001_10807 {
 			}
 		}
 		System.out.println(result);
+		
+		
+		
 		
 	}
 

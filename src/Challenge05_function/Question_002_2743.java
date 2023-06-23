@@ -1,0 +1,13 @@
+package Challenge05_function;
+
+import java.util.Scanner;
+
+public class Question_002_2743 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String a = sc.nextLine();
+		System.out.println((a.length()));
+	}
+}

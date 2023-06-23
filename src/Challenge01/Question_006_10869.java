@@ -16,7 +16,10 @@ public class Question_006_10869 {
 	System.out.println(A/B);
 	System.out.println(A%B);
 	
-
+	int a = 85;
+	if(90 <= a && a<=100) {
+		System.out.println("aa");
+	}
 
 	}
 

@@ -15,23 +15,17 @@ public class Question_006_2525 {
 		int sum = B+C;
 		
 		if((sum)>=60) {
-			
 			while((sum)>=60) {
 				A++;
 				sum = (sum)-60;
-				
 					if(A>23) {
 						A=0;
 					}
 			}
-			
 			System.out.println(A+" "+sum);
 			
 		}else {
 			System.out.println(A+" "+(sum));
 		}
-		
-		
 	}
-
 }

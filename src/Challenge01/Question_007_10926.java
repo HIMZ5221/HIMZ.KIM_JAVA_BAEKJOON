@@ -7,7 +7,7 @@ public class Question_007_10926 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		String id = sc.next();
+		String id = sc.nextLine();
 		System.out.println(id+"??!");
 	}
 
