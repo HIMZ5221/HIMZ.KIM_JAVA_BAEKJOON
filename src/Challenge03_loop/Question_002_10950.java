@@ -15,7 +15,18 @@ public class Question_002_10950 {
 			int B = sc.nextInt();
 			System.out.println(A+B);
 		}
+		
+		
+		
+		  //String a = sc.nextLine();        // 문자의 경우
+        int b = Integer.parseInt(sc.nextLine());
 
+        for(int i=0; i<b; i++) {
+            int c = Integer.parseInt(sc.nextLine());
+            int d = Integer.parseInt(sc.nextLine());
+
+            System.out.println(c+d);
+        }
 	}
 
 }
